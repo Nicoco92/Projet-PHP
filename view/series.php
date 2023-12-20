@@ -81,19 +81,6 @@ img{
     <div class="slider">
         <div class="card active">
 
-
-       <!-- foreach ($articles as $article){
-                if($article ['id'] <=5){ ?>
-            <img src="<?php echo $article['image']; ?>">
-            <div class="title">
-            <h2><?= $article['name'] ?></h2>
-            <p><?= $article['date']?></p>
-            <p><a href="?page=13reasonwhy">Voir plus</a></p>
-            </div>
-
-            } } -->
-
-
             <?php foreach ($articles as $article) { 
             if($article['id'] == 1) {?>
             <img src="<?php echo $article['image']; ?>">
